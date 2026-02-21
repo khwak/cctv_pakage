@@ -18,11 +18,13 @@
   - `cctv_qwen`: Qwen2.5-VL
 
 ## 프로젝트 구조
+```
 cctv_package/
 ├─ datasets/ # 입력 데이터, 프롬프트
 ├─ outputs/ # 탐지, 프롬프트, 상황 설명 결과
 ├─ src/ # 학습, 추론, 프롬프트 생성, 설명 모델 스크립트
 ├─ weights/ # YOLO 모델 weight
+```
 
 ## 실행 흐름
 1. YOLO 객체 탐지 → detection 결과 생성  
