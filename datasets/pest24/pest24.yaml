@@ -1,0 +1,34 @@
+# Pest24 YOLO config (insect detection)
+path: ../datasets/pest24  
+
+train: images
+val: images
+test: images
+
+nc: 24
+
+names:
+  - pest0
+  - pest1
+  - pest2
+  - pest3
+  - pest4
+  - pest5
+  - pest6
+  - pest7
+  - pest8
+  - pest9
+  - pest10
+  - pest11
+  - pest12
+  - pest13
+  - pest14
+  - pest15
+  - pest16
+  - pest17
+  - pest18
+  - pest19
+  - pest20
+  - pest21
+  - pest22
+  - pest23

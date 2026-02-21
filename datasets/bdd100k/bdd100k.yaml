@@ -1,0 +1,11 @@
+# Vehicle YOLO config
+path: ../datasets/bdd100k  
+
+train: images            
+val: images
+test: images
+
+nc: 1
+
+names:
+  - vehicle
