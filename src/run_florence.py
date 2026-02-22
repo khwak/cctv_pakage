@@ -2,6 +2,8 @@ import os
 import sys
 import importlib.util
 from unittest.mock import MagicMock
+from transformers.utils import logging
+logging.disable_progress_bar()
 
 # flash_attn mock (Florence import 안정화)
 mock_flash_attn = MagicMock()

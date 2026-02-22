@@ -4,6 +4,8 @@ import torch
 from PIL import Image
 from tqdm import tqdm
 from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
+from transformers.utils import logging
+logging.disable_progress_bar()
 
 
 CURRENT_FILE = os.path.abspath(__file__)

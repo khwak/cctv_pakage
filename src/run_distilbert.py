@@ -3,6 +3,8 @@ import json
 import torch
 from tqdm import tqdm
 from transformers import pipeline
+from transformers.utils import logging
+logging.disable_progress_bar()
 
 
 CURRENT_FILE = os.path.abspath(__file__)
